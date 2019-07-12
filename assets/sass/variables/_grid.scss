@@ -1,0 +1,26 @@
+$grid-mobile: 20px;
+$grid-min: 1024px;
+$grid-max: 1320px;
+$grid: $grid-min;
+
+$two-columns: 47.5%;
+$three-columns: 31%; 
+
+.grid,
+.grid-max {
+  margin-left: $grid-mobile;
+  margin-right: $grid-mobile;
+}
+
+@media #{$breakpoints-large} {
+  .grid,
+  .grid-max {
+    margin: 0 auto;
+    width: 90%;
+    max-width: $grid;
+  }
+
+  .grid-max {
+    max-width: $grid-max;
+  }
+}

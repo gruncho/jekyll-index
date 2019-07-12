@@ -1,0 +1,36 @@
+---
+layout: index
+ref: index
+permalink: 
+---
+<div class="index">
+  <div class="index__content">
+    <div class="index__head">
+      <h1 class="index__title">
+        Jekyll Index
+      </h1>
+    </div>
+    <ul class="index__list">
+      <li class="index__list-title">
+        Views
+      </li>
+      {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="index__list-link">
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="index__footer">
+      <p class="copy">
+        January, 2018
+      </p>
+      <p>
+        by <a href="https://worldx3.com">@gruncho</a>
+      </p>
+    </div>
+  </div>
+  <div class="index__thumb">
+  </div>
+</div>
