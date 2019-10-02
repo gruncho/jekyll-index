@@ -1,6 +1,7 @@
 # SASS
 .asset-cache
 .sass-cache
+.jekyll-cache
 
 # Jekyll
 _site
