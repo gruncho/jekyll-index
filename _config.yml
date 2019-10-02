@@ -8,7 +8,7 @@
 # Site settings
 title: Jekyll Index
 description: Jekyll Index
-baseurl: "" # /rockssfront
+baseurl: "/jekyll-index" # /jekyll-index
 url: "." # the base hostname & protocol for your site
 
 # Build settings
